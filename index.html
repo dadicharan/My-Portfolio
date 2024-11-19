@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Charan Dadi, a web developer specializing in AI and ML.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js" defer></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="navigate(0)" class="activeLink">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="navigate(1)">
+                    <i class="fa-solid fa-user"></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="navigate(2)">
+                    <i class="fa-solid fa-calculator"></i>
+                    <p>Skills</p>
+                </li>
+                <li onclick="navigate(3)">
+                    <i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>        
+        <div class="swiper myswiper">
+            <div class="slidecontainer swiper-wrapper">
+                <!-- Home Slide -->
+                <div class="swiper-slide home-slide">
+                    <div class="Homecontent">
+                        <h1>Hi! I'm <span class="stylized-name" style="color: #11ff00;">Charan Dadi</span>,</h1>
+                        <h2>A <span class="proffesions" style="color: #11ff00;">Web Developer</span></h2>
+                        <p class="heroline">
+                            I'm Charan Dadi, a graduate student at Raghu Institute of Technology specializing in Artificial Intelligence & Machine Learning. I am committed to continuous learning and excited about the opportunity to bring my skills to your team, helping develop innovative solutions for your company.
+                        </p>
+                        <div class="buttongroup">
+                            <button onclick="alert('Thank you for considering me for hire!')">Hire Me</button>
+                            <button onclick="toggleContactInfo()">Contact Me</button>
+                        </div>
+                    </div>
+                    <div class="sideimg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="https://res.cloudinary.com/djxpoufdk/image/upload/v1731779280/IMG-20230905-WA0028_yjv4qb.jpg" alt="Charan Dadi Profile Picture">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for the next slide <i class="fa-solid fa-chevron-right fa-shake"></i></p>
+                </div>
+                
+                <!-- About Me Slide -->
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About Me</h1>
+                        <h3 class="sub-heading">I'm Charan Dadi, <span class="proffesions">A Web Developer</span></h3>
+                        <p class="aboutme-details">
+                            As a determined undergraduate student, I am preparing for a transition from academia to a professional career. My expertise spans HTML, CSS, JavaScript, and AI/ML. I am passionate about front-end development and aspire to create impactful web solutions.
+                        </p>
+                        <div class="about-me-division">
+                            <div class="about-me-table">
+                                <li><span>Experience:</span> Fresher</li>
+                                <li><span>Country:</span> INDIA</li>
+                                <li><span>Availability:</span> 24/7</li>
+                                <li><span>Satisfied Clients:</span> 100%</li>
+                                <li><span>Age:</span> 20</li>
+                                <li><span>Phone No:</span> 6309116432</li>
+                                <li><span>Languages Used:</span> HTML, CSS, JavaScript</li>
+                                <li><span>Degree:</span> CSE [AI-ML]</li>
+                                <div class="buttongroup">
+                                    <button onclick="alert('Thank you for considering me for hire!')">Hire Me</button>
+                                    <button onclick="toggleContactInfo()">Contact Me</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="swiper-slide skills-slide">
+                    <h1 class="heading">My Skills</h1>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <h3>HTML</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>CSS</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;">80%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>JavaScript</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;">70%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>AI-ML</h3>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%;">50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contact-details">
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Mobile Number:</h4>
+                            <p id="contactInfo">+91 6309116432</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Location:</h4>
+                            <p>VIZAG</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>dadicharan102@gmail.com</p>
+                        </div>
+                    </div>
+                    <form action="#" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+
+        <footer>
+            <p>&copy; 2024 Charan Dadi.</p>
+            <div class="socialLinks">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <a href="#top" class="backToTop">Back to Top</a>
+        </footer>
+    </main>
+
+    <script>
+        function toggleContactInfo() {
+            var contactInfo = document.getElementById("contactInfo");
+            if (contactInfo.style.display === "none") {
+                contactInfo.style.display = "block";
+            } else {
+                contactInfo.style.display = "none";
+            }
+        }
+         type="text/javascript"
+            (function() {
+                emailjs.init("your_user_id"); // Replace with your EmailJS User ID
+            })();
+    
+            document.getElementById("contact-form").addEventListener("submit", function(event) {
+                event.preventDefault();
+    
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
+    
+                var templateParams = {
+                    name: name,
+                    email: email,
+                    message: message
+                };
+    
+                emailjs.send("your_service_id", "your_template_id", templateParams)
+                    .then(function(response) {
+                        console.log("Success!", response);
+                        alert("Your message has been sent successfully!");
+                        document.getElementById("contact-form").reset();
+                    }, function(error) {
+                        console.log("Failed...", error);
+                        alert("Something went wrong, please try again later.");
+                    });
+            });
+    </script>
+</body>
+</html>
