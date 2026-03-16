@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-zinc-100 font-sans antialiased selection:bg-emerald-500/30 selection:text-emerald-200;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400;
+  }
+}
+
+/* Custom Swiper Styles */
+.swiper-pagination-bullet {
+  @apply bg-zinc-600 opacity-100;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-emerald-500 w-8 rounded-full transition-all duration-300;
+}
