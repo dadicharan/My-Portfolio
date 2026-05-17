@@ -47,21 +47,8 @@ I enjoy building interactive web applications, modern UI designs, and innovative
 
 ## Project Structure
 
-```bash
-My-Portfolio
-│
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-└── README.md
-Installation & Setup
-Clone the repository
-git clone https://github.com/dadicharan/My-Portfolio.git
-Open the project folder
-Run the project by opening index.html in your browser
-Contact : 6309116432
-Email: your-email@example.com
+
+Email: dadicharan102@gmail.com
 LinkedIn: https://linkedin.com/in/dadicharan
 GitHub: https://github.com/dadicharan
 ⭐ Support
