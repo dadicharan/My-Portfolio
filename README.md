@@ -1,48 +1,53 @@
-**My Portfolio Website**
-Overview
+# My Portfolio Website
 
-**Welcome to my personal portfolio website!**
+## Overview
+
+Welcome to my personal portfolio website!  
 This project showcases my skills, projects, and experience as a Front-End Developer. The goal of this portfolio is to present my work, highlight my technical abilities, and provide an easy way for recruiters and developers to connect with me.
 
-**Live Demo**
+---
 
-**Portfolio Website:**
-https://dadicharan.github.io/My-Portfolio/
+## Live Demo
 
-**About Me**
+### Portfolio Website
+https://my-portfolio-chi-indol-98.vercel.app/
 
-Hi, I'm Charan Dadi 
+---
 
-Front-End Developer
-AI & Machine Learning Enthusiast
+## About Me
+
+Hi, I'm Charan Dadi
+
+- Front-End Developer  
+- AI & Machine Learning Enthusiast  
 
 I enjoy building interactive web applications, modern UI designs, and innovative tech solutions.
 
-**Features**
+---
 
-Responsive Portfolio Design
+## Features
 
-About Me Section
+- Responsive Portfolio Design  
+- About Me Section  
+- Skills Showcase  
+- Projects Gallery  
+- Contact Section  
+- Clean UI and Smooth Navigation  
 
-Skills Showcase
+---
 
-Projects Gallery
+## Tech Stack
 
-Contact Section
+- HTML5  
+- CSS3  
+- JavaScript  
+- Responsive Web Design  
 
-Clean UI and Smooth Navigation
+---
 
-**Tech Stack**
+## Project Structure
 
-HTML5
-
-CSS3
-
-JavaScript
-
-Responsive Web Design
-
-**Project Structure**
+```bash
 My-Portfolio
 │
 ├── index.html
@@ -50,20 +55,15 @@ My-Portfolio
 ├── script.js
 ├── assets/
 └── README.md
-
-**Installation & Setup**
-
-
-
-Open index.html in your browser.
-**Contact**
-
-**Email: your-email@example.com**
-
-**LinkedIn: https://linkedin.com/in/dadicharan**
-
-**GitHub: https://github.com/dadicharan**
-
+Installation & Setup
+Clone the repository
+git clone https://github.com/dadicharan/My-Portfolio.git
+Open the project folder
+Run the project by opening index.html in your browser
+Contact : 6309116432
+Email: your-email@example.com
+LinkedIn: https://linkedin.com/in/dadicharan
+GitHub: https://github.com/dadicharan
 ⭐ Support
 
 If you like this project, please give it a star ⭐ on GitHub.
