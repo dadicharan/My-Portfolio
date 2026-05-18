@@ -51,7 +51,4 @@ I enjoy building interactive web applications, modern UI designs, and innovative
 Email: dadicharan102@gmail.com
 LinkedIn: https://linkedin.com/in/dadicharan
 GitHub: https://github.com/dadicharan
-⭐ Support
 
-If you like this project, please give it a star ⭐ on GitHub.
-It motivates me to build more projects!
